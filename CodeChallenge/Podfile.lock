@@ -1,0 +1,15 @@
+PODS:
+  - GNAContextMenu (1.1.0)
+  - SKPhotoBrowser (4.0.1)
+
+DEPENDENCIES:
+  - GNAContextMenu
+  - SKPhotoBrowser
+
+SPEC CHECKSUMS:
+  GNAContextMenu: 81e9fb3a4720616acbd272fca1317a06654cb437
+  SKPhotoBrowser: 3a7c6fc02aa1620ab17253a47a49fafda46536e8
+
+PODFILE CHECKSUM: 5199c7bb3352e426870adbf892d3a9e3abd7f840
+
+COCOAPODS: 1.1.1
