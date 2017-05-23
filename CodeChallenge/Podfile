@@ -9,5 +9,4 @@ target 'CodeChallenge' do
   pod 'SKPhotoBrowser'
   pod 'GNAContextMenu'
 
-
 end

@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		58FE060C0E00ABD071D5E0AD /* Pods_CodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8CB8BD9D07F72A7A7F1181 /* Pods_CodeChallenge.framework */; };
+		5FBA2C371ED3D61C00A3EC9F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA2C361ED3D61C00A3EC9F /* Constant.swift */; };
+		5FBA2C3D1ED3E8C700A3EC9F /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA2C3C1ED3E8C700A3EC9F /* APIHelper.swift */; };
+		5FBA2C3F1ED3E9B100A3EC9F /* APILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA2C3E1ED3E9B100A3EC9F /* APILoader.swift */; };
+		5FBA2C411ED3EA4500A3EC9F /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA2C401ED3EA4500A3EC9F /* Photos.swift */; };
+		5FDD064A1ED2F8AE009A4F24 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD06481ED2F8AE009A4F24 /* ImageCollectionViewCell.swift */; };
+		5FDD064B1ED2F8AE009A4F24 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FDD06491ED2F8AE009A4F24 /* ImageCollectionViewCell.xib */; };
+		5FDD064E1ED3012C009A4F24 /* UICollectionView-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD064D1ED3012C009A4F24 /* UICollectionView-Extensions.swift */; };
+		5FDD06501ED301D9009A4F24 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD064F1ED301D9009A4F24 /* String.swift */; };
 		5FF2A3C61ED2DF3F0054045C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2A3C51ED2DF3F0054045C /* AppDelegate.swift */; };
 		5FF2A3CB1ED2DF400054045C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF2A3C91ED2DF400054045C /* Main.storyboard */; };
 		5FF2A3CD1ED2DF400054045C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF2A3CC1ED2DF400054045C /* Assets.xcassets */; };
@@ -18,6 +26,14 @@
 
 /* Begin PBXFileReference section */
 		56EEA96F0F6B25877ACB6B39 /* Pods-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		5FBA2C361ED3D61C00A3EC9F /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5FBA2C3C1ED3E8C700A3EC9F /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		5FBA2C3E1ED3E9B100A3EC9F /* APILoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APILoader.swift; sourceTree = "<group>"; };
+		5FBA2C401ED3EA4500A3EC9F /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		5FDD06481ED2F8AE009A4F24 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FDD06491ED2F8AE009A4F24 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		5FDD064D1ED3012C009A4F24 /* UICollectionView-Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView-Extensions.swift"; sourceTree = "<group>"; };
+		5FDD064F1ED301D9009A4F24 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		5FF2A3C21ED2DF3F0054045C /* CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF2A3C51ED2DF3F0054045C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF2A3CA1ED2DF400054045C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,6 +66,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5FBA2C351ED3D5F800A3EC9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA2C361ED3D61C00A3EC9F /* Constant.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FBA2C3B1ED3E89A00A3EC9F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5FBA2C3C1ED3E8C700A3EC9F /* APIHelper.swift */,
+				5FBA2C3E1ED3E9B100A3EC9F /* APILoader.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5FDD06471ED2F881009A4F24 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5FDD06481ED2F8AE009A4F24 /* ImageCollectionViewCell.swift */,
+				5FDD06491ED2F8AE009A4F24 /* ImageCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5FDD064C1ED30115009A4F24 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5FDD064F1ED301D9009A4F24 /* String.swift */,
+				5FDD064D1ED3012C009A4F24 /* UICollectionView-Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5FF2A3B91ED2DF3F0054045C = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +128,7 @@
 				5FF2A3C51ED2DF3F0054045C /* AppDelegate.swift */,
 				5FF2A3C91ED2DF400054045C /* Main.storyboard */,
 				5FF2A3CC1ED2DF400054045C /* Assets.xcassets */,
+				5FBA2C351ED3D5F800A3EC9F /* Supporting Files */,
 				5FF2A3CE1ED2DF400054045C /* LaunchScreen.storyboard */,
 				5FF2A3D11ED2DF400054045C /* Info.plist */,
 			);
@@ -86,6 +138,8 @@
 		5FF2A3D71ED2DF920054045C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5FBA2C3B1ED3E89A00A3EC9F /* API */,
+				5FDD064C1ED30115009A4F24 /* Extensions */,
 				5FF2A3D81ED2DF920054045C /* Model */,
 			);
 			path = Shared;
@@ -94,6 +148,7 @@
 		5FF2A3D81ED2DF920054045C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5FBA2C401ED3EA4500A3EC9F /* Photos.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,6 +165,7 @@
 		5FF2A3DD1ED2DFBE0054045C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5FDD06471ED2F881009A4F24 /* Cell */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +244,7 @@
 			files = (
 				5FF2A3D01ED2DF400054045C /* LaunchScreen.storyboard in Resources */,
 				5FF2A3CD1ED2DF400054045C /* Assets.xcassets in Resources */,
+				5FDD064B1ED2F8AE009A4F24 /* ImageCollectionViewCell.xib in Resources */,
 				5FF2A3CB1ED2DF400054045C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,8 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FBA2C371ED3D61C00A3EC9F /* Constant.swift in Sources */,
+				5FDD06501ED301D9009A4F24 /* String.swift in Sources */,
+				5FBA2C3F1ED3E9B100A3EC9F /* APILoader.swift in Sources */,
+				5FDD064E1ED3012C009A4F24 /* UICollectionView-Extensions.swift in Sources */,
+				5FBA2C3D1ED3E8C700A3EC9F /* APIHelper.swift in Sources */,
 				5FF2A3DB1ED2DFA00054045C /* ViewController.swift in Sources */,
 				5FF2A3C61ED2DF3F0054045C /* AppDelegate.swift in Sources */,
+				5FDD064A1ED2F8AE009A4F24 /* ImageCollectionViewCell.swift in Sources */,
+				5FBA2C411ED3EA4500A3EC9F /* Photos.swift in Sources */,
 				5FF2A3DF1ED2F03B0054045C /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

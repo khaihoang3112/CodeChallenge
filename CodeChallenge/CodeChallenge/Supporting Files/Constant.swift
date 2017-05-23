@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct API {
+    static let CONSUMER_KEY = "0KbHMZP2gjO8yF2xWeLB7BfQzxkROSDSWy7kQidc"
+}
