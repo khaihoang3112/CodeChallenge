@@ -11,9 +11,8 @@ import UIKit
 class DetailsViewController: UIViewController {
     
     @IBOutlet weak var closeButton: UIButton!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var tableView: UITableView!
+
     open var photo: Photos?
 
     override func viewDidLoad() {
@@ -45,21 +44,56 @@ class DetailsViewController: UIViewController {
 
 }
 
+extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        switch section {
+        case 0:
+            return 1
+        case 1:
+            return 1
+        default:
+            return 10
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        switch indexPath.section {
+        case 0:
+            return 400
+        case 1:
+            return 300
+        default:
+            return UITableViewAutomaticDimension
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        switch indexPath.section {
+        case 0:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ImageDetailCell", for: indexPath) as! ImageDetailTableViewCell
+            cell.setUpCell(photo: photo!)
+            return cell
+        case 1:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "NameCell", for: indexPath) as! NameTableViewCell
+            cell.setUpCell(photo: photo!)
+            return cell
+        default:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell", for: indexPath) as! CommentTableViewCell
+            return cell
+        }
+    }
+}
+
 extension DetailsViewController {
     func setUpView() {
         closeButton.layer.cornerRadius = 5
-        if let name = photo?.name, let info = photo?.des {
-            nameLabel.text = name
-            descriptionLabel.text = info
-        }
-        
-        DispatchQueue.global().async {
-            let data = NSData(contentsOf: URL(string: self.photo!.image_url!)!)
-            let image = UIImage(data: data as! Data)
-            DispatchQueue.main.async {
-                self.imageView.contentMode = .scaleAspectFit
-                self.imageView.image = image
-            }
-        }
+        tableView.register(UINib(nibName: "ImageDetailTableViewCell", bundle: nil), forCellReuseIdentifier: "ImageDetailCell")
+        tableView.register(UINib(nibName: "NameTableViewCell", bundle: nil), forCellReuseIdentifier: "NameCell")
+        tableView.register(UINib(nibName: "CommentTableViewCell", bundle: nil), forCellReuseIdentifier: "CommentCell")
+        tableView.estimatedRowHeight = 300
     }
 }
