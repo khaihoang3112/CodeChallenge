@@ -37,9 +37,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="u2G-SB-gy7">
-                                <rect key="frame" x="177.5" y="355.5" width="20" height="20"/>
-                            </activityIndicatorView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Vbs-ld-iOY">
                                 <rect key="frame" x="10" y="64" width="355" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -55,14 +52,18 @@
                                     <outlet property="delegate" destination="IXC-O9-vGJ" id="NKa-IO-j8R"/>
                                 </connections>
                             </collectionView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="u2G-SB-gy7">
+                                <rect key="frame" x="177.5" y="355.5" width="20" height="20"/>
+                                <color key="color" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9XN-yn-bia" firstAttribute="top" secondItem="Vbs-ld-iOY" secondAttribute="bottom" id="4qI-GR-oN7"/>
-                            <constraint firstItem="u2G-SB-gy7" firstAttribute="centerX" secondItem="Vbs-ld-iOY" secondAttribute="centerX" id="HOC-g4-xvn"/>
                             <constraint firstItem="Vbs-ld-iOY" firstAttribute="top" secondItem="ZBF-Br-0XK" secondAttribute="bottom" id="MM7-qP-GRl"/>
-                            <constraint firstItem="u2G-SB-gy7" firstAttribute="centerY" secondItem="Vbs-ld-iOY" secondAttribute="centerY" id="gjE-3m-hdr"/>
+                            <constraint firstItem="u2G-SB-gy7" firstAttribute="centerY" secondItem="Vbs-ld-iOY" secondAttribute="centerY" id="Zms-X8-qWx"/>
                             <constraint firstItem="Vbs-ld-iOY" firstAttribute="leading" secondItem="vwd-Ly-3e2" secondAttribute="leading" constant="10" id="i39-ap-2Bh"/>
+                            <constraint firstItem="u2G-SB-gy7" firstAttribute="centerX" secondItem="Vbs-ld-iOY" secondAttribute="centerX" id="sLS-X1-2d5"/>
                             <constraint firstAttribute="trailing" secondItem="Vbs-ld-iOY" secondAttribute="trailing" constant="10" id="vum-kO-7tU"/>
                         </constraints>
                     </view>

@@ -17,7 +17,7 @@ class Photos: NSObject {
     var created_at: String?
     var width: Float?
     var height: Float?
-    var image_url: String?
+    var image_url: [String]?
     
     init(dict: [String: AnyObject]) {
         
@@ -38,7 +38,7 @@ class Photos: NSObject {
         self.created_at = created_at as? String
         self.width = width as? Float
         self.height = height as? Float
-        self.image_url = image_url as? String
+        self.image_url = image_url as? [String]
     }
     
 }

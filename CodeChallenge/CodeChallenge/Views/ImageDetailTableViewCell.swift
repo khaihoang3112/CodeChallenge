@@ -25,10 +25,10 @@ class ImageDetailTableViewCell: UITableViewCell {
     
     func setUpCell(photo: Photos) {
         DispatchQueue.global().async {
-            let data = NSData(contentsOf: URL(string: photo.image_url!)!)
+            let data = NSData(contentsOf: URL(string: (photo.image_url?[0])!)!)
             let image = UIImage(data: data! as Data)
             DispatchQueue.main.async {
-                self.fullImageView.contentMode = .scaleToFill
+                self.fullImageView.contentMode = .scaleAspectFit
                 self.fullImageView.image = image
             }
         }

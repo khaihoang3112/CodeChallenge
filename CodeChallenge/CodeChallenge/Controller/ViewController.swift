@@ -60,13 +60,13 @@ extension ViewController: UICollectionViewDataSource {
         cell.addGestureRecognizer(UILongPressGestureRecognizer(target: self, action: #selector(ViewController.handleLongPress)))
         
         let photo = self.photos![indexPath.row]
-        let imageURL = photo.image_url!
+        let imageURL = photo.image_url?[0]
         if let imageCached = imageCached.object(forKey: (imageURL) as AnyObject) as? UIImage {
             cell.imageView.image = imageCached
             createContextMenuInItems()
         } else {
             DispatchQueue.global().async {
-                let imageUrl = URL(string: imageURL)
+                let imageUrl = URL(string: imageURL!)
                 let data = NSData(contentsOf: imageUrl!)
                 let image = UIImage(data: data! as Data)
                 DispatchQueue.main.async {
@@ -126,6 +126,7 @@ extension ViewController: GNAMenuItemDelegate {
             }
             self.photos = photos
             self.collectionView.reloadData()
+            self.collectionView.contentOffset = CGPoint(x: 0, y: 0)
         }
     }
     

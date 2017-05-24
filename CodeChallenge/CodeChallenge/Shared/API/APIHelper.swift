@@ -16,7 +16,7 @@ enum RequestMethod : String {
 
 class APIHelper: NSObject {
     
-    static let photoURL = "https://api.500px.com/v1/photos?feature=popular"
+    static let photoURL = "https://api.500px.com/v1/photos?feature=popular&image_size[]=5"
     static let consumerKey = "0KbHMZP2gjO8yF2xWeLB7BfQzxkROSDSWy7kQidc"
     
     static func getPhotoFromURL() -> String {
