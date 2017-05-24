@@ -131,18 +131,18 @@ extension ViewController: GNAMenuItemDelegate {
     
     
     func createContextMenuInItems() {
-        menuView = GNAMenuView(touchPointSize: CGSize(width: 60, height: 60), touchImage: UIImage(named: "defaultImage"), menuItems:
+        menuView = GNAMenuView(touchPointSize: CGSize(width: 70, height: 70), touchImage: UIImage(named: "defaultImage"), menuItems:
             [GNAMenuItem(icon: UIImage(named: "icon-pin")!,
-                         activeIcon: UIImage(named: ""),
+                         activeIcon: UIImage(named: "icon-pin-active"),
                          title: "Pin"),
              GNAMenuItem(icon: UIImage(named: "icon-heart")!,
-                         activeIcon: UIImage(named: ""),
+                         activeIcon: UIImage(named: "icon-heart-active"),
                          title: "Like"),
              GNAMenuItem(icon: UIImage(named: "icon-send")!,
-                         activeIcon: UIImage(named: ""),
+                         activeIcon: UIImage(named: "icon-send-active"),
                          title: "Send"),
              GNAMenuItem(icon: UIImage(named: "icon-more")!,
-                         activeIcon: UIImage(named: ""),
+                         activeIcon: UIImage(named: "icon-more-active"),
                          title: "More")])
         menuView?.delegate = self
     }
