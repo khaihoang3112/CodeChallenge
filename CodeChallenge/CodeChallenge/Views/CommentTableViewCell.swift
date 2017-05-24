@@ -9,7 +9,10 @@
 import UIKit
 
 class CommentTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var avatarImageView: UIImageView!
+    @IBOutlet weak var contentLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +24,33 @@ class CommentTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setUpCell(comment: Comments) {
+        avatarImageView.layer.cornerRadius = 30
+        avatarImageView.layer.masksToBounds = true
+        if (comment.body != nil) {
+            contentLabel.text = comment.body
+        }
+        if comment.created_at != nil {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+            let before = dateFormatter.date(from: comment.created_at!)!
+            
+            timeLabel.text = before.elapsedTime(stringDate: comment.created_at!)
+        }
+        
+        if usernameLabel.text != nil {
+            usernameLabel.text = comment.user?.fullname
+        }
+        
+        if (comment.user?.userpic_url!) != nil {
+            DispatchQueue.global().async {
+                let data = NSData(contentsOf: URL(string: (comment.user?.userpic_url!)!)!)
+                let image = UIImage(data: data! as Data)
+                DispatchQueue.main.async {
+                    self.avatarImageView.contentMode = .scaleToFill
+                    self.avatarImageView.image = image
+                }
+            }
+        }
+    }
 }

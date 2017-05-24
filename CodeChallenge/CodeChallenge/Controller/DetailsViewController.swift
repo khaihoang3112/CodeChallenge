@@ -14,17 +14,27 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
     open var photo: Photos?
+    open var comments: [Comments]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         setUpView()
+        
+        guard (photo?.id_photo) != nil else { return }
+        getPhotoCommentByPhotoId(photoId: (photo?.id_photo)!)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        tableView.reloadData()
     }
     
     @IBAction func closeButtonClick(_ sender: UIButton) {
@@ -56,7 +66,10 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
         case 1:
             return 1
         default:
-            return 10
+            if comments == nil {
+                return 0
+            }
+            return (self.comments?.count)!
         }
     }
     
@@ -65,7 +78,7 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
         case 0:
             return 400
         case 1:
-            return 300
+            return UITableViewAutomaticDimension
         default:
             return UITableViewAutomaticDimension
         }
@@ -83,6 +96,7 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell", for: indexPath) as! CommentTableViewCell
+            cell.setUpCell(comment: (comments?[indexPath.row])!)
             return cell
         }
     }
@@ -94,6 +108,14 @@ extension DetailsViewController {
         tableView.register(UINib(nibName: "ImageDetailTableViewCell", bundle: nil), forCellReuseIdentifier: "ImageDetailCell")
         tableView.register(UINib(nibName: "NameTableViewCell", bundle: nil), forCellReuseIdentifier: "NameCell")
         tableView.register(UINib(nibName: "CommentTableViewCell", bundle: nil), forCellReuseIdentifier: "CommentCell")
-        tableView.estimatedRowHeight = 300
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 400
+    }
+    
+    func getPhotoCommentByPhotoId(photoId: Int) {
+        APIPhoto.getPhotoComments(photoId: photoId) { (comments, error) in
+            self.comments = comments
+            self.tableView.reloadData()
+        }
     }
 }

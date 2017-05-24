@@ -1,38 +1,27 @@
-
+//
+//  Date.swift
+//  CodeChallenge
+//
+//  Created by KhaiHoang on 5/24/17.
+//  Copyright © 2017 iOSDev. All rights reserved.
+//
 
 import Foundation
 
-extension String {
-  static func className(aClass: AnyClass) -> String {
-    return NSStringFromClass(aClass).components(separatedBy: ".").last!
-  }
-  
-  func substring(from: Int) -> String {
-    let index = self.index(self.startIndex, offsetBy: from)
-    return self.substring(from: index)
-  }
-  
-  var length: Int {
-    return self.characters.count
-  }
-  
-  static func random(length: Int = 20) -> String {
-    
-    let base = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-    var randomString: String = ""
-    
-    for _ in 0..<length {
-      let randomValue = arc4random_uniform(UInt32(base.characters.count))
-      let index = base.index(base.startIndex, offsetBy: Int(randomValue))
-      randomString += "\(base[index])"
+extension Date {
+    var timestampString: String? {
+        let formatter = DateComponentsFormatter()
+        formatter.unitsStyle = .full
+        formatter.maximumUnitCount = 1
+        formatter.allowedUnits = [.year, .month, .weekOfMonth, .day, .hour, .minute, .second]
+        
+        guard let timeString = formatter.string(from: self, to: Date()) else {
+            return nil
+        }
+        
+        let formatString = NSLocalizedString("%@ ago", comment: "")
+        return String(format: formatString, timeString)
     }
-    
-    return randomString
-  }
-  
-  var localized: String {
-    return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
-  }
     
     func elapsedTime(stringDate: String) -> String
     {

@@ -19,7 +19,7 @@ public class GNAMenuItem: UIView {
     private var activeMenuIcon: UIImageView?
     
     public convenience init(icon: UIImage, activeIcon: UIImage?, title: String?) {
-        let frame = CGRect(x: 0, y: 0, width: 55, height: 55)
+        let frame = CGRect(x: 0, y: 0, width: 30, height: 30)
         self.init(icon: icon, activeIcon: activeIcon, title: title, frame: frame)
     }
     

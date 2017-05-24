@@ -45,8 +45,6 @@ extension ViewController: UICollectionViewDelegate {
         detailsVC.photo = photo
         present(detailsVC, animated: true, completion: nil)
     }
-
-    
 }
 
 extension ViewController: UICollectionViewDataSource {
@@ -120,7 +118,7 @@ extension ViewController: GNAMenuItemDelegate {
     func getPhotoFromAPI() {
         loadingIndicator.isHidden = false
         loadingIndicator.startAnimating()
-        APIPhoto.api.getPhotos{ (photos, error) in
+        APIPhoto.apiPhoto.getPhotos{ (photos, error) in
             self.loadingIndicator.isHidden = true
             self.loadingIndicator.stopAnimating()
             guard let photos = photos else {
@@ -129,23 +127,23 @@ extension ViewController: GNAMenuItemDelegate {
             self.photos = photos
             self.collectionView.reloadData()
         }
-
     }
+    
     
     func createContextMenuInItems() {
         menuView = GNAMenuView(touchPointSize: CGSize(width: 60, height: 60), touchImage: UIImage(named: "defaultImage"), menuItems:
             [GNAMenuItem(icon: UIImage(named: "icon-pin")!,
-                         activeIcon: UIImage(named: "Pin"),
-                         title: ""),
+                         activeIcon: UIImage(named: ""),
+                         title: "Pin"),
              GNAMenuItem(icon: UIImage(named: "icon-heart")!,
-                         activeIcon: UIImage(named: "Like"),
-                         title: ""),
+                         activeIcon: UIImage(named: ""),
+                         title: "Like"),
              GNAMenuItem(icon: UIImage(named: "icon-send")!,
-                         activeIcon: UIImage(named: "Send"),
-                         title: ""),
+                         activeIcon: UIImage(named: ""),
+                         title: "Send"),
              GNAMenuItem(icon: UIImage(named: "icon-more")!,
-                         activeIcon: UIImage(named: "More"),
-                         title: "")])
+                         activeIcon: UIImage(named: ""),
+                         title: "More")])
         menuView?.delegate = self
     }
     

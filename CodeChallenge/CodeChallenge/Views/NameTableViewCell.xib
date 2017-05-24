@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,17 +15,17 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zk6-kh-XyE">
-                        <rect key="frame" x="20" y="20" width="272" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zk6-kh-XyE">
+                        <rect key="frame" x="10" y="12" width="300" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-Hc-IkA">
-                        <rect key="frame" x="20" y="48" width="272" height="14.5"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-Hc-IkA">
+                        <rect key="frame" x="12" y="125" width="288" height="14.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
@@ -34,12 +33,13 @@
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
-                    <constraint firstItem="Ntr-Hc-IkA" firstAttribute="trailing" secondItem="zk6-kh-XyE" secondAttribute="trailing" id="Gvn-Nh-ycG"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="zk6-kh-XyE" secondAttribute="trailing" constant="20" id="PKd-C5-6An"/>
-                    <constraint firstItem="Ntr-Hc-IkA" firstAttribute="leading" secondItem="zk6-kh-XyE" secondAttribute="leading" id="TXY-2H-PMd"/>
-                    <constraint firstItem="Ntr-Hc-IkA" firstAttribute="top" secondItem="zk6-kh-XyE" secondAttribute="bottom" constant="10" id="e1F-Fa-d1b"/>
-                    <constraint firstAttribute="top" secondItem="zk6-kh-XyE" secondAttribute="top" constant="-20" id="koe-Al-RBd"/>
-                    <constraint firstAttribute="leading" secondItem="zk6-kh-XyE" secondAttribute="leading" constant="-20" id="ltG-jM-XDd"/>
+                    <constraint firstAttribute="trailing" secondItem="Ntr-Hc-IkA" secondAttribute="trailing" constant="20" id="91i-ch-xyl"/>
+                    <constraint firstItem="Ntr-Hc-IkA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="AwH-Yw-Ghp"/>
+                    <constraint firstItem="zk6-kh-XyE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="AyV-Iv-7z2"/>
+                    <constraint firstItem="Ntr-Hc-IkA" firstAttribute="top" secondItem="zk6-kh-XyE" secondAttribute="bottom" priority="250" constant="10" id="Y3i-ia-GtC"/>
+                    <constraint firstAttribute="trailing" secondItem="zk6-kh-XyE" secondAttribute="trailing" constant="10" id="YE6-Hb-gMx"/>
+                    <constraint firstAttribute="bottom" secondItem="Ntr-Hc-IkA" secondAttribute="bottom" constant="10" id="cmi-FS-3sK"/>
+                    <constraint firstItem="zk6-kh-XyE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="tzV-dZ-W18"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>

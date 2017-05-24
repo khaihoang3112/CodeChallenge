@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class Photos: NSObject {
-    
+    var id_photo: Int?
     var name: String?
     var des: String?
     var rating: Float?
@@ -21,7 +21,8 @@ class Photos: NSObject {
     
     init(dict: [String: AnyObject]) {
         
-        guard let name = dict["name"],
+        guard let id_photo = dict["id"],
+            let name = dict["name"],
             let des = dict["description"],
             let rating = dict["rating"],
             let created_at = dict["created_at"],
@@ -30,6 +31,7 @@ class Photos: NSObject {
             let image_url = dict["image_url"]
             else { return }
         
+        self.id_photo = id_photo as? Int
         self.name = name as? String
         self.des = des as? String
         self.rating = rating as? Float

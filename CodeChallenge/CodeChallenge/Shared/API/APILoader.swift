@@ -10,7 +10,8 @@ import Foundation
 import UIKit
 
 class APIPhoto: NSObject {
-    static let api = APIPhoto(urlString: APIHelper.getPhotoFromURL())
+    static let apiPhoto = APIPhoto(urlString: APIHelper.getPhotoFromURL())
+    
     var urlString: String
     init(urlString: String) {
         self.urlString = urlString
@@ -45,5 +46,37 @@ class APIPhoto: NSObject {
         }
         task.resume()
     }
+    
+    static func getPhotoComments(photoId: Int, withCompletion completion: @escaping ((_ comments: [Comments]?, _ error: Error?) -> Void)) {
+        let commentURL = "https://api.500px.com/v1/photos/\(photoId)/comments"
+        let url = URL(string: commentURL)!
+        var request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 20)
+        request.httpMethod = RequestMethod.GET.rawValue
+        let session = URLSession.shared
+        let task = session.dataTask(with: request) { (data, respond, error) in
+            
+            guard let data = data else {
+                return
+            }
+            
+            DispatchQueue.main.async {
+                if let error = error {
+                    completion(nil, error)
+                } else {
+                    let dict = try? JSONSerialization.jsonObject(with: data, options: []) as! [String: AnyObject]
+                    let commentsDict = dict!["comments"] as! [[String: AnyObject]]
+                    
+                    var comments = [Comments]()
+                    for commentDict in commentsDict {
+                        let comment = Comments(dict: commentDict)
+                        comments.append(comment)
+                    }
+                    completion(comments, nil)
+                }
+            }
+        }
+        task.resume()
+    }
+
 }
 
