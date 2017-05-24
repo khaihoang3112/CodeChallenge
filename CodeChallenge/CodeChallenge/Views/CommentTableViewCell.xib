@@ -26,8 +26,8 @@
                             <constraint firstAttribute="width" secondItem="1xS-wQ-giX" secondAttribute="height" multiplier="1:1" id="vLb-x5-Z7a"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENV-kB-TWd">
-                        <rect key="frame" x="85" y="10" width="44.5" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENV-kB-TWd">
+                        <rect key="frame" x="85" y="10" width="225" height="21"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -38,8 +38,8 @@
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qf-D6-k16">
-                        <rect key="frame" x="85" y="121.5" width="225" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qf-D6-k16">
+                        <rect key="frame" x="85" y="48.5" width="225" height="91"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -54,7 +54,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="soY-0H-sqT" firstAttribute="top" secondItem="ENV-kB-TWd" secondAttribute="bottom" constant="-1" id="0dW-Dt-ZxZ"/>
-                    <constraint firstItem="2qf-D6-k16" firstAttribute="top" secondItem="soY-0H-sqT" secondAttribute="bottom" priority="250" constant="20" id="2xa-yU-QFF"/>
+                    <constraint firstItem="2qf-D6-k16" firstAttribute="top" secondItem="soY-0H-sqT" secondAttribute="bottom" constant="5" id="2xa-yU-QFF"/>
                     <constraint firstAttribute="trailing" secondItem="2qf-D6-k16" secondAttribute="trailing" constant="10" id="4SK-Q8-zoi"/>
                     <constraint firstAttribute="bottom" secondItem="haL-FM-wPT" secondAttribute="bottom" constant="1" id="8j5-d0-XLb"/>
                     <constraint firstAttribute="bottom" secondItem="2qf-D6-k16" secondAttribute="bottom" constant="10" id="QQS-44-uAs"/>
@@ -63,6 +63,7 @@
                     <constraint firstItem="ENV-kB-TWd" firstAttribute="leading" secondItem="1xS-wQ-giX" secondAttribute="trailing" constant="15" id="bqQ-9m-I0L"/>
                     <constraint firstItem="1xS-wQ-giX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="dHx-cN-8Yu"/>
                     <constraint firstItem="2qf-D6-k16" firstAttribute="leading" secondItem="soY-0H-sqT" secondAttribute="leading" id="fHO-1f-GA4"/>
+                    <constraint firstAttribute="trailing" secondItem="ENV-kB-TWd" secondAttribute="trailing" constant="10" id="kNI-wZ-6sL"/>
                     <constraint firstItem="haL-FM-wPT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="m46-Xi-aJZ"/>
                     <constraint firstItem="ENV-kB-TWd" firstAttribute="top" secondItem="1xS-wQ-giX" secondAttribute="top" id="ofR-IR-wis"/>
                 </constraints>
