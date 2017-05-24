@@ -7,50 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0618AAAF5F196337B07B5B5B60451E59 /* SKPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D4CAFEFEB6C5CBD508BA8BDA90F42D /* SKPhotoBrowser.swift */; };
-		0DC4A06CDC10DA9C791FBE03544C8673 /* SKPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB112B17424E85B8042FAF0AD363B3F /* SKPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DF99D5C180328E453CCEA0A8F3904D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		136D59C456B3DFE617E200EE08D3B307 /* SKCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A92C89A1DD70788ECA9141EF7CEC1 /* SKCacheable.swift */; };
-		22A65151EBCFC132851A2A1C9F742C94 /* GNAMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A90A1A39C9422DF639F7E6DFE39E5 /* GNAMenuItem.swift */; };
-		306BDAA04E120099F76838C4A2D26AE5 /* SKMesurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC45AEEBFFDA968F1195B11E6BDFD3 /* SKMesurement.swift */; };
-		31FCE49C49597A42D0046C9C61A1AB6F /* Pods-CodeChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B549728C8B237C5C250D17041F79D3A /* Pods-CodeChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36CA1AB3F474129D41CCF1D316F8D0A3 /* SKIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC1AEBE1B88E9BCCE5036527F55B73B /* SKIndicatorView.swift */; };
-		3E94F7F9308489F445EE4D5623D7939C /* GNAContextMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F45E2019088B9C38052CD782BFE150E /* GNAContextMenu-dummy.m */; };
-		42A4A5A46BE5DE43FC0B6A33382B7A2F /* SKPhotoBrowserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5688E2895BD993AD5ED61FE39D70712 /* SKPhotoBrowserOptions.swift */; };
-		49A5C4C7E55D6A3B2F2C094C475F2A2D /* SKCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A66FFBE7227E7D921B7AF9E02EDAE0 /* SKCaptionView.swift */; };
-		4A2E35BF4074820723BB8823CA8CDC3E /* GNAMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15249591D284629492AF71F186098CA2 /* GNAMenuView.swift */; };
-		4BDCA5E76D0426CE4CCF9CEECA1967C5 /* SKDetectingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD5E9F55CD2AB90E6C324BA0F416EB /* SKDetectingImageView.swift */; };
-		576C5D2A36CA77FE738EE09CAEF286A9 /* SKPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = C33E83571076B5D6F673C24B6DB012C5 /* SKPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B442E04E333BA76839197DE587D69C4 /* SKToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24327637D4BE9A899B609AE7C87C2B2 /* SKToolbar.swift */; };
-		5D8BA0600B57F0CACCA26EAE942C761D /* GNAContextMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E8C2514A49926271E7BC65CE1E4381 /* GNAContextMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ECFE9DE36C042D6A35B8C9BD2AFAA83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		702A09927E180807865EBC5DF310460D /* SKAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD4E656D8B809F2DA4E4295B6248263 /* SKAnimator.swift */; };
-		72C04FDAA1123787E091164780FF4492 /* SKPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B84080B5393D8FA88379A81BAAD8235 /* SKPhotoBrowser-dummy.m */; };
-		753E274ACD7DD4EE7B9CBDEFEF19B834 /* SKZoomingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD0E6C248D5A0F8345A282E603CE06C /* SKZoomingScrollView.swift */; };
-		8699C1AD7A47D72C9F5F693BC5D25513 /* SKButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDAA6A28484B85C9C661D2DCC34FE2B /* SKButtons.swift */; };
-		8A1C6684DE327D3601D334B555B773E9 /* SKLocalPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CCDD963FF99CFD61D9C2E8A9855F5D /* SKLocalPhoto.swift */; };
-		9536C4F42D94DAF575F917C7FA916B44 /* SKPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91323DEDA8833D034720116EC91003EA /* SKPhoto.swift */; };
-		A19B769EDF96667BC4234178FDB48D7A /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD8E9F6769391C3D6688F25A6E2DB3F /* UIImage+Rotation.swift */; };
-		ADF3E71A8232F114D260EEE77CF3D464 /* Pods-CodeChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCCF6A5C29256C3E9A56D349FB89E6 /* Pods-CodeChallenge-dummy.m */; };
-		C4FB476DF6D7FB5F170AE839F30C51B0 /* SKPagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6B331529B21110A5D4E3C437442F4 /* SKPagingScrollView.swift */; };
-		D060AEF58B7D4D0C72092DE940C4D385 /* SKPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCF510924E3E0D83F989FA047F601BF9 /* SKPhotoBrowser.bundle */; };
-		E67EFCA8F3C88B72CC691B94353A5B18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		EC0E6CD445B9883CB32699DB99A9C7A8 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB5DE65E06F9FDC3258AD1DEA54D5AE /* SKCache.swift */; };
-		EE1B536739AD340852F4B65E3079D3EB /* SKPhotoBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27213B075A895633F83D58B1ACA16F17 /* SKPhotoBrowserDelegate.swift */; };
-		F83DB67774856F36B2959A8A08FC0522 /* UIView+Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28692E50E8E854EC5B7E663B9E4B57A5 /* UIView+Radius.swift */; };
-		FBA15AA71F6A212490403775E29AF225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		FDB44B881B7E75C2FB4C10A7C2CF45E1 /* SKDetectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF672CDCB11090AEE08639C3E93E3D2 /* SKDetectingView.swift */; };
+		1EA3944616963856F69F9530F03FB009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		22A65151EBCFC132851A2A1C9F742C94 /* GNAMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672B989DE7995C3246AF8D57EDF83B4B /* GNAMenuItem.swift */; };
+		32E33F63166765B379ACF092CACD6078 /* Pods-CodeChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CCCF6A5C29256C3E9A56D349FB89E6 /* Pods-CodeChallenge-dummy.m */; };
+		3E94F7F9308489F445EE4D5623D7939C /* GNAContextMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A045184A797D49E7F07549E759F837 /* GNAContextMenu-dummy.m */; };
+		481435FB9BAC10FBC954ACF8F5D5D523 /* Pods-CodeChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B549728C8B237C5C250D17041F79D3A /* Pods-CodeChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2E35BF4074820723BB8823CA8CDC3E /* GNAMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED9ECE6BA3DF8157AF85FE2889AABF /* GNAMenuView.swift */; };
+		5D8BA0600B57F0CACCA26EAE942C761D /* GNAContextMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEA264046C93040BA4B397C6CCFFF8BA /* GNAContextMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36D9049E7759C7EBBBAFF217B48E36C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1625D625F5A88D5EDB9C07174729A38D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2882939A737406505AFB201FBF526CB6;
-			remoteInfo = SKPhotoBrowser;
-		};
-		7CF207F4E7C837E4C721802766DEFD13 /* PBXContainerItemProxy */ = {
+		419C50BAEBB5BF185CDE9A8CD417ABDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -60,74 +28,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06CCDD963FF99CFD61D9C2E8A9855F5D /* SKLocalPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKLocalPhoto.swift; path = SKPhotoBrowser/SKLocalPhoto.swift; sourceTree = "<group>"; };
-		07D4CAFEFEB6C5CBD508BA8BDA90F42D /* SKPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowser.swift; path = SKPhotoBrowser/SKPhotoBrowser.swift; sourceTree = "<group>"; };
-		15249591D284629492AF71F186098CA2 /* GNAMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNAMenuView.swift; path = gnaContextMenu/GNAContextMenu/GNAMenuView.swift; sourceTree = "<group>"; };
-		1AC65E8A01B88B67D91F701FF6CC869A /* GNAContextMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNAContextMenu.framework; path = GNAContextMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AD0E6C248D5A0F8345A282E603CE06C /* SKZoomingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKZoomingScrollView.swift; path = SKPhotoBrowser/SKZoomingScrollView.swift; sourceTree = "<group>"; };
 		1CE5BA421DB866C8341D8132EEB2A360 /* Pods-CodeChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallenge-resources.sh"; sourceTree = "<group>"; };
-		1CF672CDCB11090AEE08639C3E93E3D2 /* SKDetectingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingView.swift; path = SKPhotoBrowser/SKDetectingView.swift; sourceTree = "<group>"; };
-		1EDC45AEEBFFDA968F1195B11E6BDFD3 /* SKMesurement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKMesurement.swift; path = SKPhotoBrowser/SKMesurement.swift; sourceTree = "<group>"; };
-		27213B075A895633F83D58B1ACA16F17 /* SKPhotoBrowserDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserDelegate.swift; path = SKPhotoBrowser/SKPhotoBrowserDelegate.swift; sourceTree = "<group>"; };
-		28692E50E8E854EC5B7E663B9E4B57A5 /* UIView+Radius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Radius.swift"; path = "SKPhotoBrowser/extensions/UIView+Radius.swift"; sourceTree = "<group>"; };
-		2EC1AEBE1B88E9BCCE5036527F55B73B /* SKIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKIndicatorView.swift; path = SKPhotoBrowser/SKIndicatorView.swift; sourceTree = "<group>"; };
 		33DA3AB315F765E9ECD28CEB13BE204A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B5B5FB7D7E76F0E764DD6FA617E76E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B84080B5393D8FA88379A81BAAD8235 /* SKPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
-		4F45E2019088B9C38052CD782BFE150E /* GNAContextMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNAContextMenu-dummy.m"; sourceTree = "<group>"; };
-		50AA8F357177AB366796772CD4F4BE90 /* SKPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKPhotoBrowser.xcconfig; sourceTree = "<group>"; };
-		52698E59EED2F35FC61600983C000782 /* Pods_CodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallenge.framework; path = "Pods-CodeChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52D216B1E9F5A7FD1466B80A6FFF3C71 /* GNAContextMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNAContextMenu.framework; path = GNAContextMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A4856D367B304EFC508107A2E13620 /* Pods-CodeChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
-		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		61CCCF6A5C29256C3E9A56D349FB89E6 /* Pods-CodeChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeChallenge-dummy.m"; sourceTree = "<group>"; };
-		662A90A1A39C9422DF639F7E6DFE39E5 /* GNAMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNAMenuItem.swift; path = gnaContextMenu/GNAContextMenu/GNAMenuItem.swift; sourceTree = "<group>"; };
-		6BD4E656D8B809F2DA4E4295B6248263 /* SKAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKAnimator.swift; path = SKPhotoBrowser/SKAnimator.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		672B989DE7995C3246AF8D57EDF83B4B /* GNAMenuItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNAMenuItem.swift; path = gnaContextMenu/GNAContextMenu/GNAMenuItem.swift; sourceTree = "<group>"; };
 		6EAF4AC217986648BE2E70A0A8671962 /* Pods-CodeChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		786A92C89A1DD70788ECA9141EF7CEC1 /* SKCacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCacheable.swift; path = SKPhotoBrowser/SKCacheable.swift; sourceTree = "<group>"; };
+		70A0BC268586B0B2BDDB18A5B019285B /* Pods_CodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CodeChallenge.framework; path = "Pods-CodeChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7057098270B874650B509999914085 /* Pods-CodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8DDBE2F4E782EA6CD42443BEC52DABF3 /* GNAContextMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GNAContextMenu.modulemap; sourceTree = "<group>"; };
-		90F6B331529B21110A5D4E3C437442F4 /* SKPagingScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPagingScrollView.swift; path = SKPhotoBrowser/SKPagingScrollView.swift; sourceTree = "<group>"; };
-		91323DEDA8833D034720116EC91003EA /* SKPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhoto.swift; path = SKPhotoBrowser/SKPhoto.swift; sourceTree = "<group>"; };
+		80A045184A797D49E7F07549E759F837 /* GNAContextMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GNAContextMenu-dummy.m"; sourceTree = "<group>"; };
+		8A0A7D501D4D84485F3052B96EFAA9E6 /* GNAContextMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNAContextMenu-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B549728C8B237C5C250D17041F79D3A /* Pods-CodeChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodeChallenge-umbrella.h"; sourceTree = "<group>"; };
-		9E2C7FD12F299CD81C83940D091F290D /* GNAContextMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNAContextMenu-prefix.pch"; sourceTree = "<group>"; };
-		A24327637D4BE9A899B609AE7C87C2B2 /* SKToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKToolbar.swift; path = SKPhotoBrowser/SKToolbar.swift; sourceTree = "<group>"; };
-		AAD8E9F6769391C3D6688F25A6E2DB3F /* UIImage+Rotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Rotation.swift"; path = "SKPhotoBrowser/extensions/UIImage+Rotation.swift"; sourceTree = "<group>"; };
+		A04273CE659C27077EC32FE42F3B9B98 /* GNAContextMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GNAContextMenu.modulemap; sourceTree = "<group>"; };
+		A7ED9ECE6BA3DF8157AF85FE2889AABF /* GNAMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GNAMenuView.swift; path = gnaContextMenu/GNAContextMenu/GNAMenuView.swift; sourceTree = "<group>"; };
 		AFC2F3F69879440D514D435B478E9754 /* Pods-CodeChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeChallenge-frameworks.sh"; sourceTree = "<group>"; };
-		B3BB26F498B860E0F54757D15B1EEB00 /* SKPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SKPhotoBrowser.modulemap; sourceTree = "<group>"; };
-		B4A66FFBE7227E7D921B7AF9E02EDAE0 /* SKCaptionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCaptionView.swift; path = SKPhotoBrowser/SKCaptionView.swift; sourceTree = "<group>"; };
-		B4AD5E9F55CD2AB90E6C324BA0F416EB /* SKDetectingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKDetectingImageView.swift; path = SKPhotoBrowser/SKDetectingImageView.swift; sourceTree = "<group>"; };
-		B5688E2895BD993AD5ED61FE39D70712 /* SKPhotoBrowserOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKPhotoBrowserOptions.swift; path = SKPhotoBrowser/SKPhotoBrowserOptions.swift; sourceTree = "<group>"; };
 		B621BF0E6B2EEB7B6ED6690636F576AB /* Pods-CodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		B8C580BB0D6CC3CA969A1FE59D1C8343 /* Pods-CodeChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CodeChallenge.modulemap"; sourceTree = "<group>"; };
-		BA98059CFDA81743E62E6C82466601A8 /* SKPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKPhotoBrowser.framework; path = SKPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDB5DE65E06F9FDC3258AD1DEA54D5AE /* SKCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKCache.swift; path = SKPhotoBrowser/SKCache.swift; sourceTree = "<group>"; };
-		C33E83571076B5D6F673C24B6DB012C5 /* SKPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPhotoBrowser.h; path = SKPhotoBrowser/SKPhotoBrowser.h; sourceTree = "<group>"; };
-		CBB112B17424E85B8042FAF0AD363B3F /* SKPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
-		CD44D3990206832C369C473A12D8FA12 /* SKPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
-		D77864F992D42B7A279A517E325B5536 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDDAA6A28484B85C9C661D2DCC34FE2B /* SKButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKButtons.swift; path = SKPhotoBrowser/SKButtons.swift; sourceTree = "<group>"; };
-		E2DA9A91028555F6736AF340DEF562EF /* GNAContextMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNAContextMenu.xcconfig; sourceTree = "<group>"; };
-		E8E8C2514A49926271E7BC65CE1E4381 /* GNAContextMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNAContextMenu-umbrella.h"; sourceTree = "<group>"; };
-		FCF510924E3E0D83F989FA047F601BF9 /* SKPhotoBrowser.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SKPhotoBrowser.bundle; path = SKPhotoBrowser/SKPhotoBrowser.bundle; sourceTree = "<group>"; };
+		BEA264046C93040BA4B397C6CCFFF8BA /* GNAContextMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GNAContextMenu-umbrella.h"; sourceTree = "<group>"; };
+		CBF62BAE46AA3A407F805B8324B50AA4 /* GNAContextMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GNAContextMenu.xcconfig; sourceTree = "<group>"; };
+		F463F4C49C1BCB32477E0133271466F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F2A1EA61661E7385F3063D2FDAC230E /* Frameworks */ = {
+		8A2D53B8E02DB6EAB1A9D7C94D3591B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECFE9DE36C042D6A35B8C9BD2AFAA83 /* Foundation.framework in Frameworks */,
-				0DF99D5C180328E453CCEA0A8F3904D9 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5C2197BCD4F7BDEC0556B6D4513CD8B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBA15AA71F6A212490403775E29AF225 /* Foundation.framework in Frameworks */,
+				1EA3944616963856F69F9530F03FB009 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,27 +65,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E67EFCA8F3C88B72CC691B94353A5B18 /* Foundation.framework in Frameworks */,
+				A36D9049E7759C7EBBBAFF217B48E36C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		2129D6C474AF39D4AC8EAAF2DEE92FBB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+				A04273CE659C27077EC32FE42F3B9B98 /* GNAContextMenu.modulemap */,
+				CBF62BAE46AA3A407F805B8324B50AA4 /* GNAContextMenu.xcconfig */,
+				80A045184A797D49E7F07549E759F837 /* GNAContextMenu-dummy.m */,
+				8A0A7D501D4D84485F3052B96EFAA9E6 /* GNAContextMenu-prefix.pch */,
+				BEA264046C93040BA4B397C6CCFFF8BA /* GNAContextMenu-umbrella.h */,
+				F463F4C49C1BCB32477E0133271466F7 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/GNAContextMenu";
 			sourceTree = "<group>";
 		};
-		4AE6D2A8F3CF0415C1BD445294272B92 /* Resources */ = {
+		2EA7DD49037EAD0E5B3EF1FAC69754E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCF510924E3E0D83F989FA047F601BF9 /* SKPhotoBrowser.bundle */,
+				52D216B1E9F5A7FD1466B80A6FFF3C71 /* GNAContextMenu.framework */,
+				70A0BC268586B0B2BDDB18A5B019285B /* Pods_CodeChallenge.framework */,
 			);
-			name = Resources;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336164A8E91C31DF487EC71220CF693B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB1930855647225930317BF3EC76BD6 /* GNAContextMenu */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		65F2D43A94766B448286CF737540B7E0 /* Pods-CodeChallenge */ = {
@@ -176,20 +121,6 @@
 			path = "Target Support Files/Pods-CodeChallenge";
 			sourceTree = "<group>";
 		};
-		6D17A7482D8B4A4D6097312A8A8F3364 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D77864F992D42B7A279A517E325B5536 /* Info.plist */,
-				B3BB26F498B860E0F54757D15B1EEB00 /* SKPhotoBrowser.modulemap */,
-				50AA8F357177AB366796772CD4F4BE90 /* SKPhotoBrowser.xcconfig */,
-				4B84080B5393D8FA88379A81BAAD8235 /* SKPhotoBrowser-dummy.m */,
-				CD44D3990206832C369C473A12D8FA12 /* SKPhotoBrowser-prefix.pch */,
-				CBB112B17424E85B8042FAF0AD363B3F /* SKPhotoBrowser-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SKPhotoBrowser";
-			sourceTree = "<group>";
-		};
 		6E40A722371C25E45960148BB4014C6E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,95 +129,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		75234D42CA005CB300F75C2D64F3A02E /* SKPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				6BD4E656D8B809F2DA4E4295B6248263 /* SKAnimator.swift */,
-				DDDAA6A28484B85C9C661D2DCC34FE2B /* SKButtons.swift */,
-				BDB5DE65E06F9FDC3258AD1DEA54D5AE /* SKCache.swift */,
-				786A92C89A1DD70788ECA9141EF7CEC1 /* SKCacheable.swift */,
-				B4A66FFBE7227E7D921B7AF9E02EDAE0 /* SKCaptionView.swift */,
-				B4AD5E9F55CD2AB90E6C324BA0F416EB /* SKDetectingImageView.swift */,
-				1CF672CDCB11090AEE08639C3E93E3D2 /* SKDetectingView.swift */,
-				2EC1AEBE1B88E9BCCE5036527F55B73B /* SKIndicatorView.swift */,
-				06CCDD963FF99CFD61D9C2E8A9855F5D /* SKLocalPhoto.swift */,
-				1EDC45AEEBFFDA968F1195B11E6BDFD3 /* SKMesurement.swift */,
-				90F6B331529B21110A5D4E3C437442F4 /* SKPagingScrollView.swift */,
-				91323DEDA8833D034720116EC91003EA /* SKPhoto.swift */,
-				C33E83571076B5D6F673C24B6DB012C5 /* SKPhotoBrowser.h */,
-				07D4CAFEFEB6C5CBD508BA8BDA90F42D /* SKPhotoBrowser.swift */,
-				27213B075A895633F83D58B1ACA16F17 /* SKPhotoBrowserDelegate.swift */,
-				B5688E2895BD993AD5ED61FE39D70712 /* SKPhotoBrowserOptions.swift */,
-				A24327637D4BE9A899B609AE7C87C2B2 /* SKToolbar.swift */,
-				1AD0E6C248D5A0F8345A282E603CE06C /* SKZoomingScrollView.swift */,
-				AAD8E9F6769391C3D6688F25A6E2DB3F /* UIImage+Rotation.swift */,
-				28692E50E8E854EC5B7E663B9E4B57A5 /* UIView+Radius.swift */,
-				4AE6D2A8F3CF0415C1BD445294272B92 /* Resources */,
-				6D17A7482D8B4A4D6097312A8A8F3364 /* Support Files */,
-			);
-			name = SKPhotoBrowser;
-			path = SKPhotoBrowser;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				FBDC71185EEEFD4C0AD6BED18A80DD05 /* Pods */,
-				97D313644682E041B3BA2F09A9F915D8 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				336164A8E91C31DF487EC71220CF693B /* Pods */,
+				2EA7DD49037EAD0E5B3EF1FAC69754E8 /* Products */,
 				6E40A722371C25E45960148BB4014C6E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		97D313644682E041B3BA2F09A9F915D8 /* Products */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1AC65E8A01B88B67D91F701FF6CC869A /* GNAContextMenu.framework */,
-				52698E59EED2F35FC61600983C000782 /* Pods_CodeChallenge.framework */,
-				BA98059CFDA81743E62E6C82466601A8 /* SKPhotoBrowser.framework */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E47BC778807829977CC0C54B0060E992 /* Support Files */ = {
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8DDBE2F4E782EA6CD42443BEC52DABF3 /* GNAContextMenu.modulemap */,
-				E2DA9A91028555F6736AF340DEF562EF /* GNAContextMenu.xcconfig */,
-				4F45E2019088B9C38052CD782BFE150E /* GNAContextMenu-dummy.m */,
-				9E2C7FD12F299CD81C83940D091F290D /* GNAContextMenu-prefix.pch */,
-				E8E8C2514A49926271E7BC65CE1E4381 /* GNAContextMenu-umbrella.h */,
-				3B5B5FB7D7E76F0E764DD6FA617E76E0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GNAContextMenu";
-			sourceTree = "<group>";
-		};
-		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
-				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FBDC71185EEEFD4C0AD6BED18A80DD05 /* Pods */ = {
+		FBB1930855647225930317BF3EC76BD6 /* GNAContextMenu */ = {
 			isa = PBXGroup;
 			children = (
-				FD34026119948C2A15042A279CC6822A /* GNAContextMenu */,
-				75234D42CA005CB300F75C2D64F3A02E /* SKPhotoBrowser */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FD34026119948C2A15042A279CC6822A /* GNAContextMenu */ = {
-			isa = PBXGroup;
-			children = (
-				662A90A1A39C9422DF639F7E6DFE39E5 /* GNAMenuItem.swift */,
-				15249591D284629492AF71F186098CA2 /* GNAMenuView.swift */,
-				E47BC778807829977CC0C54B0060E992 /* Support Files */,
+				672B989DE7995C3246AF8D57EDF83B4B /* GNAMenuItem.swift */,
+				A7ED9ECE6BA3DF8157AF85FE2889AABF /* GNAMenuView.swift */,
+				2129D6C474AF39D4AC8EAAF2DEE92FBB /* Support Files */,
 			);
 			name = GNAContextMenu;
 			path = GNAContextMenu;
@@ -295,15 +170,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		835C65538E4EDB056B2BE9213B11FCAD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DC4A06CDC10DA9C791FBE03544C8673 /* SKPhotoBrowser-umbrella.h in Headers */,
-				576C5D2A36CA77FE738EE09CAEF286A9 /* SKPhotoBrowser.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		91A12748C775CA8FE3EC30A767C6EA64 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,35 +178,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F005E9E947E654EAC35423F540064158 /* Headers */ = {
+		FCB75837523319C66E6AA0924193CA46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31FCE49C49597A42D0046C9C61A1AB6F /* Pods-CodeChallenge-umbrella.h in Headers */,
+				481435FB9BAC10FBC954ACF8F5D5D523 /* Pods-CodeChallenge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2882939A737406505AFB201FBF526CB6 /* SKPhotoBrowser */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D8640F3CB9613238C489193294477490 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */;
-			buildPhases = (
-				AA03EFB2ADE05DD9997D47FEA3B13518 /* Sources */,
-				3F2A1EA61661E7385F3063D2FDAC230E /* Frameworks */,
-				835C65538E4EDB056B2BE9213B11FCAD /* Headers */,
-				60AFD3EA2A45020888DDA0E2B557FFAB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SKPhotoBrowser;
-			productName = SKPhotoBrowser;
-			productReference = BA98059CFDA81743E62E6C82466601A8 /* SKPhotoBrowser.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		74367E66F1180AA915B76E357A8971F5 /* GNAContextMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52FD6149FA7501F057225D5B6A7616AA /* Build configuration list for PBXNativeTarget "GNAContextMenu" */;
@@ -355,26 +203,25 @@
 			);
 			name = GNAContextMenu;
 			productName = GNAContextMenu;
-			productReference = 1AC65E8A01B88B67D91F701FF6CC869A /* GNAContextMenu.framework */;
+			productReference = 52D216B1E9F5A7FD1466B80A6FFF3C71 /* GNAContextMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		74AF5A5295B54B945ECD33E2316B0B73 /* Pods-CodeChallenge */ = {
+		EF22C3533320C7730704323E8DDA809A /* Pods-CodeChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCBAD40438281C792CA74C62BAD91DD6 /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */;
+			buildConfigurationList = 2904F48EC397BE19B1102E25F32C750C /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */;
 			buildPhases = (
-				5A6CA9721AFA0C7301FBFAA220A2030A /* Sources */,
-				5C2197BCD4F7BDEC0556B6D4513CD8B1 /* Frameworks */,
-				F005E9E947E654EAC35423F540064158 /* Headers */,
+				FD463EA3DB3EE7A5F729D2668ED7D6C5 /* Sources */,
+				8A2D53B8E02DB6EAB1A9D7C94D3591B8 /* Frameworks */,
+				FCB75837523319C66E6AA0924193CA46 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F353202FC79F960104FE3A43907CB50B /* PBXTargetDependency */,
-				E8C6138CEC1CC5672D1258FF1D79AA5A /* PBXTargetDependency */,
+				7F24026456479FD28CF7D96EA818D494 /* PBXTargetDependency */,
 			);
 			name = "Pods-CodeChallenge";
 			productName = "Pods-CodeChallenge";
-			productReference = 52698E59EED2F35FC61600983C000782 /* Pods_CodeChallenge.framework */;
+			productReference = 70A0BC268586B0B2BDDB18A5B019285B /* Pods_CodeChallenge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -383,7 +230,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -394,27 +241,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 97D313644682E041B3BA2F09A9F915D8 /* Products */;
+			productRefGroup = 2EA7DD49037EAD0E5B3EF1FAC69754E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				74367E66F1180AA915B76E357A8971F5 /* GNAContextMenu */,
-				74AF5A5295B54B945ECD33E2316B0B73 /* Pods-CodeChallenge */,
-				2882939A737406505AFB201FBF526CB6 /* SKPhotoBrowser */,
+				EF22C3533320C7730704323E8DDA809A /* Pods-CodeChallenge */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		60AFD3EA2A45020888DDA0E2B557FFAB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D060AEF58B7D4D0C72092DE940C4D385 /* SKPhotoBrowser.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37F09B22050229C8C7ACF99EAF918B86 /* Sources */ = {
@@ -427,239 +262,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A6CA9721AFA0C7301FBFAA220A2030A /* Sources */ = {
+		FD463EA3DB3EE7A5F729D2668ED7D6C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF3E71A8232F114D260EEE77CF3D464 /* Pods-CodeChallenge-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA03EFB2ADE05DD9997D47FEA3B13518 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				702A09927E180807865EBC5DF310460D /* SKAnimator.swift in Sources */,
-				8699C1AD7A47D72C9F5F693BC5D25513 /* SKButtons.swift in Sources */,
-				EC0E6CD445B9883CB32699DB99A9C7A8 /* SKCache.swift in Sources */,
-				136D59C456B3DFE617E200EE08D3B307 /* SKCacheable.swift in Sources */,
-				49A5C4C7E55D6A3B2F2C094C475F2A2D /* SKCaptionView.swift in Sources */,
-				4BDCA5E76D0426CE4CCF9CEECA1967C5 /* SKDetectingImageView.swift in Sources */,
-				FDB44B881B7E75C2FB4C10A7C2CF45E1 /* SKDetectingView.swift in Sources */,
-				36CA1AB3F474129D41CCF1D316F8D0A3 /* SKIndicatorView.swift in Sources */,
-				8A1C6684DE327D3601D334B555B773E9 /* SKLocalPhoto.swift in Sources */,
-				306BDAA04E120099F76838C4A2D26AE5 /* SKMesurement.swift in Sources */,
-				C4FB476DF6D7FB5F170AE839F30C51B0 /* SKPagingScrollView.swift in Sources */,
-				9536C4F42D94DAF575F917C7FA916B44 /* SKPhoto.swift in Sources */,
-				72C04FDAA1123787E091164780FF4492 /* SKPhotoBrowser-dummy.m in Sources */,
-				0618AAAF5F196337B07B5B5B60451E59 /* SKPhotoBrowser.swift in Sources */,
-				EE1B536739AD340852F4B65E3079D3EB /* SKPhotoBrowserDelegate.swift in Sources */,
-				42A4A5A46BE5DE43FC0B6A33382B7A2F /* SKPhotoBrowserOptions.swift in Sources */,
-				5B442E04E333BA76839197DE587D69C4 /* SKToolbar.swift in Sources */,
-				753E274ACD7DD4EE7B9CBDEFEF19B834 /* SKZoomingScrollView.swift in Sources */,
-				A19B769EDF96667BC4234178FDB48D7A /* UIImage+Rotation.swift in Sources */,
-				F83DB67774856F36B2959A8A08FC0522 /* UIView+Radius.swift in Sources */,
+				32E33F63166765B379ACF092CACD6078 /* Pods-CodeChallenge-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E8C6138CEC1CC5672D1258FF1D79AA5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SKPhotoBrowser;
-			target = 2882939A737406505AFB201FBF526CB6 /* SKPhotoBrowser */;
-			targetProxy = 1625D625F5A88D5EDB9C07174729A38D /* PBXContainerItemProxy */;
-		};
-		F353202FC79F960104FE3A43907CB50B /* PBXTargetDependency */ = {
+		7F24026456479FD28CF7D96EA818D494 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GNAContextMenu;
 			target = 74367E66F1180AA915B76E357A8971F5 /* GNAContextMenu */;
-			targetProxy = 7CF207F4E7C837E4C721802766DEFD13 /* PBXContainerItemProxy */;
+			targetProxy = 419C50BAEBB5BF185CDE9A8CD417ABDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EF206B97C527566277C9FB66FE5B226 /* Debug */ = {
+		11D9E8F96FE33D80EF334769A12B6C16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B621BF0E6B2EEB7B6ED6690636F576AB /* Pods-CodeChallenge.debug.xcconfig */;
+			baseConfigurationReference = CBF62BAE46AA3A407F805B8324B50AA4 /* GNAContextMenu.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CodeChallenge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		249B9DF9D99B0CB62209F9A2FAE0FEA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D7057098270B874650B509999914085 /* Pods-CodeChallenge.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CodeChallenge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3645002621C5FEC651E42425387E109F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2DA9A91028555F6736AF340DEF562EF /* GNAContextMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GNAContextMenu/GNAContextMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GNAContextMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GNAContextMenu/GNAContextMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GNAContextMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		673254EEAF0B5BF4596080C749645884 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6F0108B8A5A5927EC7827DD676ED6198 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50AA8F357177AB366796772CD4F4BE90 /* SKPhotoBrowser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SKPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		94BA9D05508DF06B5EA17F3C02B05694 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2DA9A91028555F6736AF340DEF562EF /* GNAContextMenu.xcconfig */;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -681,6 +308,7 @@
 				PRODUCT_NAME = GNAContextMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -688,11 +316,12 @@
 			};
 			name = Release;
 		};
-		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -700,10 +329,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -732,10 +364,11 @@
 			};
 			name = Debug;
 		};
-		FF49104B7AC6341F8CB7C4B6D251FBFC /* Debug */ = {
+		3A67BEB1183921EDE02618E3B0427B09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50AA8F357177AB366796772CD4F4BE90 /* SKPhotoBrowser.xcconfig */;
+			baseConfigurationReference = CBF62BAE46AA3A407F805B8324B50AA4 /* GNAContextMenu.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -747,16 +380,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKPhotoBrowser/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GNAContextMenu/GNAContextMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GNAContextMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKPhotoBrowser/SKPhotoBrowser.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GNAContextMenu/GNAContextMenu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SKPhotoBrowser;
+				PRODUCT_NAME = GNAContextMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -765,14 +399,144 @@
 			};
 			name = Debug;
 		};
+		7BFDF630063ABAC893CAD7CCED8A60DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B621BF0E6B2EEB7B6ED6690636F576AB /* Pods-CodeChallenge.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CodeChallenge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9564E54C5506A6678753289223CA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7057098270B874650B509999914085 /* Pods-CodeChallenge.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CodeChallenge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodeChallenge/Pods-CodeChallenge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CodeChallenge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2904F48EC397BE19B1102E25F32C750C /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFDF630063ABAC893CAD7CCED8A60DC /* Debug */,
+				EB9564E54C5506A6678753289223CA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
-				673254EEAF0B5BF4596080C749645884 /* Release */,
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -780,26 +544,8 @@
 		52FD6149FA7501F057225D5B6A7616AA /* Build configuration list for PBXNativeTarget "GNAContextMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3645002621C5FEC651E42425387E109F /* Debug */,
-				94BA9D05508DF06B5EA17F3C02B05694 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCBAD40438281C792CA74C62BAD91DD6 /* Build configuration list for PBXNativeTarget "Pods-CodeChallenge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1EF206B97C527566277C9FB66FE5B226 /* Debug */,
-				249B9DF9D99B0CB62209F9A2FAE0FEA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8640F3CB9613238C489193294477490 /* Build configuration list for PBXNativeTarget "SKPhotoBrowser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF49104B7AC6341F8CB7C4B6D251FBFC /* Debug */,
-				6F0108B8A5A5927EC7827DD676ED6198 /* Release */,
+				3A67BEB1183921EDE02618E3B0427B09 /* Debug */,
+				11D9E8F96FE33D80EF334769A12B6C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

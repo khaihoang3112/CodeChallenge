@@ -6,7 +6,6 @@ target 'CodeChallenge' do
   use_frameworks!
 
   # Pods for CodeChallenge
-  pod 'SKPhotoBrowser'
   pod 'GNAContextMenu'
 
 end

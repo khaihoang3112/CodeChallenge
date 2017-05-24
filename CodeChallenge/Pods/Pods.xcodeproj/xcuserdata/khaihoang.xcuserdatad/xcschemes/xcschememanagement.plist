@@ -6,33 +6,23 @@
 	<dict>
 		<key>GNAContextMenu.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-CodeChallenge.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>SKPhotoBrowser.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2882939A737406505AFB201FBF526CB6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>74367E66F1180AA915B76E357A8971F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74AF5A5295B54B945ECD33E2316B0B73</key>
+		<key>EF22C3533320C7730704323E8DDA809A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
