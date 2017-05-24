@@ -18,6 +18,8 @@
 		5FDD06501ED301D9009A4F24 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD064F1ED301D9009A4F24 /* String.swift */; };
 		5FF195461ED52D0700C36701 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF195451ED52D0700C36701 /* Comments.swift */; };
 		5FF1954A1ED5608600C36701 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF195491ED5608600C36701 /* Date.swift */; };
+		5FF195551ED59ABA00C36701 /* TotalCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF195531ED59ABA00C36701 /* TotalCommentsTableViewCell.swift */; };
+		5FF195561ED59ABA00C36701 /* TotalCommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FF195541ED59ABA00C36701 /* TotalCommentsTableViewCell.xib */; };
 		5FF2A3C61ED2DF3F0054045C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2A3C51ED2DF3F0054045C /* AppDelegate.swift */; };
 		5FF2A3CB1ED2DF400054045C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FF2A3C91ED2DF400054045C /* Main.storyboard */; };
 		5FF2A3CD1ED2DF400054045C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF2A3CC1ED2DF400054045C /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		5FDD064F1ED301D9009A4F24 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		5FF195451ED52D0700C36701 /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		5FF195491ED5608600C36701 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		5FF195531ED59ABA00C36701 /* TotalCommentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalCommentsTableViewCell.swift; sourceTree = "<group>"; };
+		5FF195541ED59ABA00C36701 /* TotalCommentsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TotalCommentsTableViewCell.xib; sourceTree = "<group>"; };
 		5FF2A3C21ED2DF3F0054045C /* CodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF2A3C51ED2DF3F0054045C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FF2A3CA1ED2DF400054045C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				ECA864481ED45FA000A19488 /* NameTableViewCell.xib */,
 				ECA8644B1ED45FB200A19488 /* CommentTableViewCell.swift */,
 				ECA8644C1ED45FB200A19488 /* CommentTableViewCell.xib */,
+				5FF195531ED59ABA00C36701 /* TotalCommentsTableViewCell.swift */,
+				5FF195541ED59ABA00C36701 /* TotalCommentsTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 				5FF2A3CD1ED2DF400054045C /* Assets.xcassets in Resources */,
 				ECA8644A1ED45FA000A19488 /* NameTableViewCell.xib in Resources */,
 				5FDD064B1ED2F8AE009A4F24 /* ImageCollectionViewCell.xib in Resources */,
+				5FF195561ED59ABA00C36701 /* TotalCommentsTableViewCell.xib in Resources */,
 				ECA8644E1ED45FB200A19488 /* CommentTableViewCell.xib in Resources */,
 				5FF2A3CB1ED2DF400054045C /* Main.storyboard in Resources */,
 				ECA864461ED45F8600A19488 /* ImageDetailTableViewCell.xib in Resources */,
@@ -331,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF195551ED59ABA00C36701 /* TotalCommentsTableViewCell.swift in Sources */,
 				5FBA2C371ED3D61C00A3EC9F /* Constant.swift in Sources */,
 				5FDD06501ED301D9009A4F24 /* String.swift in Sources */,
 				5FBA2C3F1ED3E9B100A3EC9F /* APILoader.swift in Sources */,

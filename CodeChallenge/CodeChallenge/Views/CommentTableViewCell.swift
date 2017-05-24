@@ -27,6 +27,7 @@ class CommentTableViewCell: UITableViewCell {
     func setUpCell(comment: Comments) {
         avatarImageView.layer.cornerRadius = 30
         avatarImageView.layer.masksToBounds = true
+        
         if (comment.body != nil) {
             contentLabel.text = comment.body
         }
@@ -53,4 +54,5 @@ class CommentTableViewCell: UITableViewCell {
             }
         }
     }
+
 }

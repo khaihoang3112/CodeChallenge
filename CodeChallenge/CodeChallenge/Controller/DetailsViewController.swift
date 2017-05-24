@@ -56,7 +56,7 @@ class DetailsViewController: UIViewController {
 
 extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -64,6 +64,8 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
         case 0:
             return 1
         case 1:
+            return 1
+        case 2:
             return 1
         default:
             if comments == nil {
@@ -79,6 +81,8 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
             return 400
         case 1:
             return UITableViewAutomaticDimension
+        case 2:
+            return 100
         default:
             return UITableViewAutomaticDimension
         }
@@ -94,6 +98,12 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
             let cell = tableView.dequeueReusableCell(withIdentifier: "NameCell", for: indexPath) as! NameTableViewCell
             cell.setUpCell(photo: photo!)
             return cell
+        case 2:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TotalCommentsCell", for: indexPath) as! TotalCommentsTableViewCell
+            if self.comments != nil {
+                cell.setUpCell(photo: photo!, totalComments: (self.comments?.count)!)
+            }
+            return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell", for: indexPath) as! CommentTableViewCell
             cell.setUpCell(comment: (comments?[indexPath.row])!)
@@ -108,6 +118,7 @@ extension DetailsViewController {
         tableView.register(UINib(nibName: "ImageDetailTableViewCell", bundle: nil), forCellReuseIdentifier: "ImageDetailCell")
         tableView.register(UINib(nibName: "NameTableViewCell", bundle: nil), forCellReuseIdentifier: "NameCell")
         tableView.register(UINib(nibName: "CommentTableViewCell", bundle: nil), forCellReuseIdentifier: "CommentCell")
+        tableView.register(UINib(nibName: "TotalCommentsTableViewCell", bundle: nil), forCellReuseIdentifier: "TotalCommentsCell")
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 400
     }
