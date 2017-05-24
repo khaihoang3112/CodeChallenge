@@ -18,14 +18,14 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zk6-kh-XyE">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zk6-kh-XyE">
                         <rect key="frame" x="10" y="12" width="300" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ntr-Hc-IkA">
-                        <rect key="frame" x="12" y="125" width="288" height="14.5"/>
+                        <rect key="frame" x="12" y="40" width="288" height="14.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
@@ -36,9 +36,9 @@
                     <constraint firstAttribute="trailing" secondItem="Ntr-Hc-IkA" secondAttribute="trailing" constant="20" id="91i-ch-xyl"/>
                     <constraint firstItem="Ntr-Hc-IkA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="AwH-Yw-Ghp"/>
                     <constraint firstItem="zk6-kh-XyE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="AyV-Iv-7z2"/>
-                    <constraint firstItem="Ntr-Hc-IkA" firstAttribute="top" secondItem="zk6-kh-XyE" secondAttribute="bottom" priority="250" constant="10" id="Y3i-ia-GtC"/>
+                    <constraint firstAttribute="bottom" secondItem="Ntr-Hc-IkA" secondAttribute="bottom" priority="250" constant="10" id="FVU-X7-Rge"/>
+                    <constraint firstItem="Ntr-Hc-IkA" firstAttribute="top" secondItem="zk6-kh-XyE" secondAttribute="bottom" constant="10" id="Y3i-ia-GtC"/>
                     <constraint firstAttribute="trailing" secondItem="zk6-kh-XyE" secondAttribute="trailing" constant="10" id="YE6-Hb-gMx"/>
-                    <constraint firstAttribute="bottom" secondItem="Ntr-Hc-IkA" secondAttribute="bottom" constant="10" id="cmi-FS-3sK"/>
                     <constraint firstItem="zk6-kh-XyE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="tzV-dZ-W18"/>
                 </constraints>
             </tableViewCellContentView>
