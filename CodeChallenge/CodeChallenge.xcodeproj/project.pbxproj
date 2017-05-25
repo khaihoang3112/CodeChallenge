@@ -15,7 +15,7 @@
 		5FCB01681ED6868D00FC4A2F /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB01661ED6868D00FC4A2F /* DetailsTableViewCell.swift */; };
 		5FCB01691ED6868D00FC4A2F /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB01671ED6868D00FC4A2F /* DetailsTableViewCell.xib */; };
 		5FCB016B1ED6B1B600FC4A2F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB016A1ED6B1B600FC4A2F /* UIColor.swift */; };
-		5FCB016D1ED6B92800FC4A2F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB016C1ED6B92800FC4A2F /* File.swift */; };
+		5FCB016D1ED6B92800FC4A2F /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB016C1ED6B92800FC4A2F /* UIImageView.swift */; };
 		5FCB01711ED6D43700FC4A2F /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB016F1ED6D43700FC4A2F /* CommentTableViewCell.swift */; };
 		5FCB01721ED6D43700FC4A2F /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FCB01701ED6D43700FC4A2F /* CommentTableViewCell.xib */; };
 		5FCB01761ED6D45F00FC4A2F /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB01741ED6D45F00FC4A2F /* ImageCollectionViewCell.swift */; };
@@ -47,7 +47,7 @@
 		5FCB01661ED6868D00FC4A2F /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		5FCB01671ED6868D00FC4A2F /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
 		5FCB016A1ED6B1B600FC4A2F /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		5FCB016C1ED6B92800FC4A2F /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5FCB016C1ED6B92800FC4A2F /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		5FCB016F1ED6D43700FC4A2F /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		5FCB01701ED6D43700FC4A2F /* CommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
 		5FCB01741ED6D45F00FC4A2F /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 				5FDD064D1ED3012C009A4F24 /* UICollectionView-Extensions.swift */,
 				5FF195491ED5608600C36701 /* Date.swift */,
 				5FCB016A1ED6B1B600FC4A2F /* UIColor.swift */,
-				5FCB016C1ED6B92800FC4A2F /* File.swift */,
+				5FCB016C1ED6B92800FC4A2F /* UIImageView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -383,7 +383,7 @@
 				5FCB016B1ED6B1B600FC4A2F /* UIColor.swift in Sources */,
 				ECA864451ED45F8600A19488 /* ImageDetailTableViewCell.swift in Sources */,
 				5FBA2C411ED3EA4500A3EC9F /* Photos.swift in Sources */,
-				5FCB016D1ED6B92800FC4A2F /* File.swift in Sources */,
+				5FCB016D1ED6B92800FC4A2F /* UIImageView.swift in Sources */,
 				5FF2A3DF1ED2F03B0054045C /* DetailsViewController.swift in Sources */,
 				5FCB01761ED6D45F00FC4A2F /* ImageCollectionViewCell.swift in Sources */,
 			);
