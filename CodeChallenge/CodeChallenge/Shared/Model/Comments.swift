@@ -13,11 +13,13 @@ struct User {
     let user_id: Int?
     let fullname: String?
     let userpic_url: String?
+    let city: String?
     
-    init(id: Int?, name: String?, url: String?) {
+    init(id: Int?, name: String?, url: String?, place: String?) {
         user_id = id
         fullname = name
         userpic_url = url
+        city = place
     }
 }
 
@@ -38,7 +40,7 @@ class Comments: NSObject {
         self.user_id = userId as? Int
         self.body = body as? String
         self.created_at = created_at as? String
-        self.user = User(id: user["id"] as? Int, name: user["fullname"] as? String, url: user["userpic_url"] as? String)
+        self.user = User(id: user["id"] as? Int, name: user["fullname"] as? String, url: user["userpic_url"] as? String, place: user["city"] as? String)
     }
     
    

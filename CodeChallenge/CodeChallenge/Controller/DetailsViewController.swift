@@ -10,7 +10,6 @@ import UIKit
 
 class DetailsViewController: UIViewController {
     
-    @IBOutlet weak var closeButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
 
     open var photo: Photos?
@@ -41,6 +40,9 @@ class DetailsViewController: UIViewController {
         self.dismiss(animated: true, completion: {})
     }
 
+    @IBAction func backAction(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: {})
+    }
 
     /*
     // MARK: - Navigation
@@ -56,16 +58,38 @@ class DetailsViewController: UIViewController {
 
 extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch(section) {
+        case 0:
+            return ""
+            
+        default:
+            if let count = photo?.comments_count! {
+                guard count > 0 else {
+                    return "Comments (0)"
+                }
+                print("\(count)")
+                return String("Comments (\(count))")
+            }
+            return "Comments (0)"
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        switch section {
+        case 0:
+            return 0
+        default:
+            return 60
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
-            return 1
-        case 1:
-            return 1
-        case 2:
             return 1
         default:
             if comments == nil {
@@ -76,37 +100,21 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        switch indexPath.section {
-        case 0:
-            return 400
-        case 1:
-            return UITableViewAutomaticDimension
-        case 2:
-            return 100
-        default:
-            return UITableViewAutomaticDimension
-        }
+        return UITableViewAutomaticDimension
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
         case 0:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "ImageDetailCell", for: indexPath) as! ImageDetailTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "DetailCell", for: indexPath) as! DetailsTableViewCell
             cell.setUpCell(photo: photo!)
-            return cell
-        case 1:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "NameCell", for: indexPath) as! NameTableViewCell
-            cell.setUpCell(photo: photo!)
-            return cell
-        case 2:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "TotalCommentsCell", for: indexPath) as! TotalCommentsTableViewCell
-            if self.comments != nil {
-                cell.setUpCell(photo: photo!, totalComments: (self.comments?.count)!)
-            }
             return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell", for: indexPath) as! CommentTableViewCell
             cell.setUpCell(comment: (comments?[indexPath.row])!)
+            if indexPath.row == (comments?.count)! - 1 {
+                cell.separatorView.isHidden = true
+            }
             return cell
         }
     }
@@ -114,13 +122,11 @@ extension DetailsViewController: UITableViewDelegate, UITableViewDataSource {
 
 extension DetailsViewController {
     func setUpView() {
-        closeButton.layer.cornerRadius = 5
-        tableView.register(UINib(nibName: "ImageDetailTableViewCell", bundle: nil), forCellReuseIdentifier: "ImageDetailCell")
-        tableView.register(UINib(nibName: "NameTableViewCell", bundle: nil), forCellReuseIdentifier: "NameCell")
+        tableView.register(UINib(nibName: "DetailsTableViewCell", bundle: nil), forCellReuseIdentifier: "DetailCell")
         tableView.register(UINib(nibName: "CommentTableViewCell", bundle: nil), forCellReuseIdentifier: "CommentCell")
-        tableView.register(UINib(nibName: "TotalCommentsTableViewCell", bundle: nil), forCellReuseIdentifier: "TotalCommentsCell")
+
         tableView.rowHeight = UITableViewAutomaticDimension
-        tableView.estimatedRowHeight = 400
+        tableView.estimatedRowHeight = 450
     }
     
     func getPhotoCommentByPhotoId(photoId: Int) {

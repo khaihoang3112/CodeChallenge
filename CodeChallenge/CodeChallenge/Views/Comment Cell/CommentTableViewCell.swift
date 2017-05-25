@@ -9,9 +9,11 @@
 import UIKit
 
 class CommentTableViewCell: UITableViewCell {
+    @IBOutlet weak var separatorView: UIView!
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var contentLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var usernameLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -39,8 +41,12 @@ class CommentTableViewCell: UITableViewCell {
             timeLabel.text = before.elapsedTime(stringDate: comment.created_at!)
         }
         
-        if usernameLabel.text != nil {
+        if comment.user?.fullname != nil {
             usernameLabel.text = comment.user?.fullname
+        }
+        
+        if comment.user?.city != nil {
+            cityLabel.text = comment.user?.city
         }
         
         if (comment.user?.userpic_url!) != nil {
