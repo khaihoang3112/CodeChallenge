@@ -8,6 +8,7 @@
 
 import UIKit
 import GNAContextMenu
+import AVFoundation
 
 class ViewController: UIViewController {
     
