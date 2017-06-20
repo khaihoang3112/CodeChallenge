@@ -197,14 +197,14 @@ open class GNAMenuView: UIView {
         let angle = startAngle + 90
         menuItemsArray.forEach({ item in
             let index = CGFloat(menuItemsArray.index(of: item)!)
-            item.angle = (angle - angleCoef * index) / 180 * CGFloat(M_PI)
+            item.angle = (angle - angleCoef * index) / 180 * CGFloat(Double.pi)
         })
     }
     
     private func positiveQuorterAngle(startAngle: CGFloat) {
         menuItemsArray.forEach({ item in
             let index = CGFloat(menuItemsArray.index(of: item)!)
-            item.angle = (startAngle + angleCoef * index) / 180.0 * CGFloat(M_PI)
+            item.angle = (startAngle + angleCoef * index) / 180.0 * CGFloat(Double.pi)
         })
     }
     
