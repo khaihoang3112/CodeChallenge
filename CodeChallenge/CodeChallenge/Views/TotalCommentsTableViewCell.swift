@@ -24,7 +24,7 @@ class TotalCommentsTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setUpCell(photo: Photos, totalComments: Int) {
+    func setUpCell(photo: Photos) {
         self.imgView.layer.cornerRadius = 40
         self.imgView.layer.masksToBounds = true
         self.contentView.backgroundColor = UIColor.lightGray
@@ -32,7 +32,7 @@ class TotalCommentsTableViewCell: UITableViewCell {
             namePhotoLabel.text = photo.name
         }
         
-        totalCommentsLabel.text = "\(totalComments) comments"
+        totalCommentsLabel.text = "\(photo.comments_count) comments"
         
         if photo.image_url?[0] != nil {
             DispatchQueue.global().async {
